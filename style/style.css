@@ -1,0 +1,146 @@
+/* font style */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  /*start from here */
+  *{
+    font-family: "Merriweather", serif;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+  }
+/* style of banner */
+ .banner_container{
+    max-width: 1320px;
+    border-radius: 16px;
+    height: 600px;
+    margin: 50px auto;
+    background-image: url("/images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0, 0,0.5);
+    background-blend-mode: overlay;
+ }
+ .text_container{
+  color: white;
+  display: flex;
+  flex-direction:column;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .text_container h1{
+  font-size: 71px;
+  font-weight: 900px;
+ }
+ /* offer section style */
+ .display_offer{
+  font-size: 88px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-bottom: 48px;
+ }
+ .holyday{
+  font-size: 24px;
+  font: weight 400px;
+  color: red;
+  text-align: center;
+  margin-bottom: 16px;
+ }
+ .categories{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+ }
+ .offer{
+  width: 802.9px;
+  height: 806px;
+  margin: 120px auto;
+ }
+ /* offer section end */
+ /* midnight section start */
+ .midnight{
+  max-width: 1320px;
+  height: 600px;
+  background-image: url("/images/Vectorrr.png");
+  margin: 120px auto;
+  background-color: rgba(0,0, 0,0.5);
+  background-blend-mode: overlay;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+ }
+ .highlight{
+  font-size: 64px;
+  padding-bottom: 24px;
+
+ }
+ .regular_p{
+  font-size: 18px;
+  max-width: 697px;
+  padding-bottom: 48px;
+
+ }
+.join{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 32px;
+}
+.pic{
+  padding: 68px 138px 68px 0px;
+  
+  
+}
+.party_details{
+  padding: 126px 0px 142px 126px;
+}
+
+
